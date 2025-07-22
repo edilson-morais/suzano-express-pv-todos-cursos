@@ -9,7 +9,7 @@ export const PricingSection = () => {
         <div className="max-w-6xl mx-auto space-y-16">
           
           
-          <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <ModernPricingCard
               tier="Plano PRO"
               price="12x de R$22,70"
@@ -17,7 +17,37 @@ export const PricingSection = () => {
               CTA="QUERO COMEÇAR AGORA"
               highlighted={true}
               benefits={features.map(feature => ({ text: feature, checked: true }))}
-              className="max-w-md w-full"
+              className="w-full"
+            />
+            
+            <ModernPricingCard
+              tier="Plano PRO"
+              price="12x de R$22,70"
+              bestFor="De R$ 397,00 por apenas | Ou R$ 227 à vista no Pix"
+              CTA="QUERO COMEÇAR AGORA"
+              highlighted={true}
+              benefits={features.map(feature => ({ text: feature, checked: true }))}
+              className="w-full"
+            />
+            
+            <ModernPricingCard
+              tier="Plano PRO"
+              price="12x de R$22,70"
+              bestFor="De R$ 397,00 por apenas | Ou R$ 227 à vista no Pix"
+              CTA="QUERO COMEÇAR AGORA"
+              highlighted={true}
+              benefits={features.map(feature => ({ text: feature, checked: true }))}
+              className="w-full"
+            />
+            
+            <ModernPricingCard
+              tier="Plano PRO"
+              price="12x de R$22,70"
+              bestFor="De R$ 397,00 por apenas | Ou R$ 227 à vista no Pix"
+              CTA="QUERO COMEÇAR AGORA"
+              highlighted={true}
+              benefits={features.map(feature => ({ text: feature, checked: true }))}
+              className="w-full"
             />
           </div>
           
