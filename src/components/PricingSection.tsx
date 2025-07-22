@@ -62,32 +62,36 @@ export const PricingSection = () => {
             
           </div>
           
-          <div className="text-center space-y-8">
-            <div className="flex items-center justify-center space-x-4">
-              <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">15D</span>
-              </div>
-              <div className="text-left">
-                <h3 className="text-2xl font-bold">Garantia incondicional de 15 dias</h3>
+          <div className="bg-card/50 border border-primary/20 rounded-2xl p-8 space-y-8 max-w-4xl mx-auto">
+            <div className="text-center space-y-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-primary">
+                CONHEÇA NOSSA GARANTIA
+              </h2>
+              
+              <div className="flex items-center justify-center space-x-6">
+                <img 
+                  src="/lovable-uploads/4cc49268-bdc5-4fef-863d-ca0cb802c917.png" 
+                  alt="Garantia 15 dias incondicional"
+                  className="w-24 h-24 object-contain"
+                />
+                <div className="text-left space-y-2">
+                  <h3 className="text-xl font-bold text-foreground">Estás Protegido por nossa</h3>
+                  <p className="text-primary font-bold text-lg">★ Garantia Incondicional de Satisfação ★</p>
+                </div>
               </div>
             </div>
             
-            <div className="space-y-6 max-w-4xl mx-auto">
-              <p className="text-xl font-semibold text-center">
-                Você está protegido pela nossa<br />
-                <span className="text-primary">★ Garantia Incondicional de Satisfação ★</span>
+            <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
+              <p>
+                Fazendo sua inscrição hoje, seu risco é zero, pois conta com nossa garantia total e incondicional de satisfação do Suzano Express.
               </p>
               
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Ao se inscrever hoje, seu risco é zero, pois você conta com a garantia total e incondicional de satisfação do Suzano Express.
+              <p>
+                Se não ficares satisfeito com o método, solo envíanos um email dentro de 15 dias e devolveremos 100% de tu dinero, sem nenhuma pergunta.
               </p>
               
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Se você não ficar satisfeito com o método, basta nos enviar um e-mail dentro de 15 dias e devolveremos 100% do seu dinheiro — sem perguntas.
-              </p>
-              
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Acreditamos que não vamos chegar a esse ponto, mas, se você realmente estiver em dúvida se isso vai funcionar para você ou não, fique tranquilo: você tem garantia.
+              <p>
+                Acreditamos que NÃO vamos chegar a esse ponto, mas, se realmente estás preocupado se isso vai funcionar para ti ou não, fica tranquilo, pois tens garantia.
               </p>
             </div>
           </div>
