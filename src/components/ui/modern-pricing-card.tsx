@@ -80,7 +80,9 @@ export const ModernPricingCard = ({
         
         {highlighted && <div className="flex items-center justify-center space-x-4 pt-6 mt-6 border-t border-zinc-700">
             <div className="flex -space-x-2">
-              {[...Array(8)].map((_, i) => {})}
+              {[...Array(8)].map((_, i) => (
+                <div key={i} className="w-8 h-8 rounded-full bg-primary/20 border-2 border-zinc-700" />
+              ))}
             </div>
             <div className="text-left text-sm">
               <p className="font-bold text-zinc-300">
