@@ -11,32 +11,59 @@ export const PricingSection = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <ModernPricingCard
-              tier="Plano PRO"
-              price="12x de R$22,70"
-              bestFor="De R$ 397,00 por apenas | Ou R$ 227 à vista no Pix"
+              tier="CURSO AFRO BRASIL - ATABAQUE E PANDEIRO"
+              price="MARCOS SUZANO & GUSTAVO DI DALVA"
+              bestFor="MÓDULO EXERCÍCIOS – PANDEIRO"
               CTA="QUERO COMEÇAR AGORA"
               highlighted={true}
-              benefits={features.map(feature => ({ text: feature, checked: true }))}
+              benefits={[
+                { text: "MÓDULO CONGO", checked: true },
+                { text: "MÓDULO ILÚ", checked: true },
+                { text: "MÓDULO IJEXÁ", checked: true },
+                { text: "MÓDULO AFRO LATINO", checked: true },
+                { text: "MÓDULO AGUERÊ", checked: true },
+                { text: "MÓDULO IBÍ", checked: true },
+                { text: "MÓDULO BARRAVENTO", checked: true },
+                { text: "MÓDULO JONGO", checked: true },
+                { text: "MÓDULO BATUCADA CONGO + CABILA", checked: true }
+              ]}
               className="w-full"
             />
             
             <ModernPricingCard
-              tier="Plano PRO"
-              price="12x de R$22,70"
-              bestFor="De R$ 397,00 por apenas | Ou R$ 227 à vista no Pix"
+              tier="PLANO MODERN GROOVES"
+              price="MÉTODO EXCLUSIVO CRIADO POR SUZANO"
+              bestFor="Técnica Invertida"
               CTA="QUERO COMEÇAR AGORA"
               highlighted={true}
-              benefits={features.map(feature => ({ text: feature, checked: true }))}
+              benefits={[
+                { text: "MÓDULO 0 COM EXERCÍCIOS", checked: true },
+                { text: "ELETRO MÓDULO (Pandeiro com Pedais e Sampler)", checked: true },
+                { text: "FUNK 1", checked: true },
+                { text: "FUNK 2", checked: true },
+                { text: "REGGAE", checked: true },
+                { text: "ALÉM (criado por Suzano)", checked: true },
+                { text: "AFRO LATINO", checked: true },
+                { text: "JUNGLE", checked: true },
+                { text: "DRUM'N BASS", checked: true },
+                { text: "GROOVE BACK BEAT", checked: true }
+              ]}
               className="w-full"
             />
             
             <ModernPricingCard
-              tier="Plano PRO"
-              price="12x de R$22,70"
-              bestFor="De R$ 397,00 por apenas | Ou R$ 227 à vista no Pix"
+              tier="PLANO INICIANTE"
+              price="42 aulas em vídeo HD"
+              bestFor="INCLUSIVE EM CÂMERA LENTA"
               CTA="QUERO COMEÇAR AGORA"
               highlighted={true}
-              benefits={features.map(feature => ({ text: feature, checked: true }))}
+              benefits={[
+                { text: "42 aulas em vídeo HD (INCLUSIVE EM CÂMERA LENTA)", checked: true },
+                { text: "Acesso por 2 anos", checked: true },
+                { text: "PDF de apoio (APOSTILA COM TODOS OS RITMOS E VARIAÇÕES)", checked: true },
+                { text: "Suporte por IA (inteligência artificial) no WhatsApp", checked: true },
+                { text: "o Suzano Bot responderá todas as suas dúvidas", checked: true }
+              ]}
               className="w-full"
             />
             
