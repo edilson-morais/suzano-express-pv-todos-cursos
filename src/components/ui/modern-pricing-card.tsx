@@ -34,6 +34,7 @@ interface ModernPricingCardProps {
   }>;
   className?: string;
   highlighted?: boolean;
+  link?: string;
 }
 export const ModernPricingCard = ({
   tier,
@@ -42,7 +43,8 @@ export const ModernPricingCard = ({
   CTA,
   benefits,
   className,
-  highlighted = false
+  highlighted = false,
+  link
 }: ModernPricingCardProps) => {
   return <motion.div initial={{
     filter: "blur(2px)"
@@ -73,7 +75,7 @@ export const ModernPricingCard = ({
         </div>
         
         <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold" asChild>
-          <a href="https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv">
+          <a href={link || "https://sun.eduzz.com/50027?utm_source=suzano+express&utm_id=pv"}>
             {CTA}
           </a>
         </Button>

@@ -12,11 +12,12 @@ export const PricingSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             <ModernPricingCard
               tier="CURSO AFRO BRASIL - ATABAQUE E PANDEIRO"
-              price="MARCOS SUZANO & GUSTAVO DI DALVA"
-              bestFor="MÓDULO EXERCÍCIOS – PANDEIRO"
+              price="12x R$ 19,70"
+              bestFor="ou R$ 197,00 à vista"
               CTA="QUERO COMEÇAR AGORA"
               highlighted={true}
               benefits={[
+                { text: "MÓDULO EXERCÍCIOS – PANDEIRO", checked: true },
                 { text: "MÓDULO CONGO", checked: true },
                 { text: "MÓDULO ILÚ", checked: true },
                 { text: "MÓDULO IJEXÁ", checked: true },
@@ -27,16 +28,18 @@ export const PricingSection = () => {
                 { text: "MÓDULO JONGO", checked: true },
                 { text: "MÓDULO BATUCADA CONGO + CABILA", checked: true }
               ]}
+              link="https://sun.eduzz.com/631003?utm_source=afro+brasil+pv&utm_id=todos-os-cursos+pv"
               className="w-full"
             />
             
             <ModernPricingCard
               tier="PLANO MODERN GROOVES"
-              price="MÉTODO EXCLUSIVO CRIADO POR SUZANO"
-              bestFor="Técnica Invertida"
+              price="12x R$ 14,70"
+              bestFor="ou R$ 147,00 à vista"
               CTA="QUERO COMEÇAR AGORA"
               highlighted={true}
               benefits={[
+                { text: "MÉTODO EXCLUSIVO CRIADO POR SUZANO (Técnica Invertida)", checked: true },
                 { text: "MÓDULO 0 COM EXERCÍCIOS", checked: true },
                 { text: "ELETRO MÓDULO (Pandeiro com Pedais e Sampler)", checked: true },
                 { text: "FUNK 1", checked: true },
@@ -48,13 +51,14 @@ export const PricingSection = () => {
                 { text: "DRUM'N BASS", checked: true },
                 { text: "GROOVE BACK BEAT", checked: true }
               ]}
+              link="https://sun.eduzz.com/51752?utm_source=afro+brasil+pv&utm_id=todos-os-cursos+pv"
               className="w-full"
             />
             
             <ModernPricingCard
               tier="PLANO INICIANTE"
-              price="42 aulas em vídeo HD"
-              bestFor="INCLUSIVE EM CÂMERA LENTA"
+              price="12x R$ 6,70"
+              bestFor="ou R$ 67,00 à vista"
               CTA="QUERO COMEÇAR AGORA"
               highlighted={true}
               benefits={[
@@ -64,6 +68,7 @@ export const PricingSection = () => {
                 { text: "Suporte por IA (inteligência artificial) no WhatsApp", checked: true },
                 { text: "o Suzano Bot responderá todas as suas dúvidas", checked: true }
               ]}
+              link="https://sun.eduzz.com/50299?utm_source=afro+brasil+pv&utm_id=todos-os-cursos+pv"
               className="w-full"
             />
             
